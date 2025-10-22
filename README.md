@@ -1,0 +1,1 @@
+Pansage, Semisage, Heracross - покемоны
