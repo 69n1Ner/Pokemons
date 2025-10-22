@@ -1,4 +1,3 @@
-
 import ru.ifmo.se.pokemon.*;
 public class LowSweep extends PhysicalMove{
     public LowSweep(){

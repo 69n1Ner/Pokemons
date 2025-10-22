@@ -7,4 +7,4 @@ public final class Heracross extends Pokemon {
             setMove(new DoubleTeam(), new RockSlide(), new Leer(), new CloseCombat());
         }
     }
-
+//lvl 50

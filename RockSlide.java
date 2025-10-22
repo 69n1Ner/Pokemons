@@ -7,8 +7,8 @@ public class RockSlide extends PhysicalMove{
     @Override
     protected void applyOppEffects(Pokemon p){
         Effect eff = new Effect().chance(0.3);
-        eff.flinch(p);
-        
+        eff.flinch(p);        
+        //Нет команды на наличие у покемона атаки -> нельзя полностью реализовать
     }
     
     @Override
