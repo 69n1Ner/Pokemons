@@ -5,7 +5,12 @@ public class Happiny extends Pokemon{
     }
     protected void pokemonStat(){
         addType(Type.NORMAL);
-        setMove(new WorkUp(), new Facade());
+        if (getLevel() >= 42){
+            addMove(new Facade());
+        }
+        if (getLevel() >= 10){
+            addMove(new WorkUp());
+        }
     }
     protected void evoChangableStat(){
         setStats(100, 5, 5, 15, 65, 30);

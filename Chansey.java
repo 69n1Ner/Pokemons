@@ -6,7 +6,7 @@ public class Chansey extends Happiny {
     @Override
     protected void evoChangableStat(){
         setStats(250, 5, 5, 35, 105, 50);
-        setMove(new MudBomb());
+        addMove(new MudBomb());
         }
     }
 //lvl 42

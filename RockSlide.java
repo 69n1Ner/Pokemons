@@ -2,7 +2,7 @@ import ru.ifmo.se.pokemon.*;
 public class RockSlide extends PhysicalMove{
     public RockSlide(){
         super(Type.ROCK, 75, 90);
-        //почему покемон бьет сам себя?
+        
     }
     @Override
     protected void applyOppEffects(Pokemon p){

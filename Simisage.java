@@ -6,7 +6,7 @@ public final class Simisage extends Pansage {
     @Override
     protected void evoChangableStat(){
         setStats(75, 98, 63, 98, 63, 101);
-        setMove(new DoubleTeam());
+        addMove(new DoubleTeam());
     }
 }
 //lvl 65

@@ -9,7 +9,7 @@ public class MudBomb extends PhysicalMove{
         eff.stat(Stat.ACCURACY, -1);
         p.setCondition(eff);
         System.out.println(p.getStat(Stat.ACCURACY));
-        //как реализовать это
+        
     }
     @Override
     protected String describe(){
