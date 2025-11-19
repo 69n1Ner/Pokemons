@@ -8,7 +8,7 @@ public class Facade extends PhysicalMove{
         if (def.getCondition() == Status.BURN ||
             def.getCondition() == Status.POISON ||
             def.getCondition() == Status.PARALYZE){
-        def.setMod(Stat.HP, ((int) Math.round(damage)*2));
+            def.setMod(Stat.HP, ((int) Math.round(damage)*2));
         }
         else{
             def.setMod(Stat.HP, ((int) Math.round(damage)));

@@ -2,6 +2,7 @@ import ru.ifmo.se.pokemon.*;
 public class Chansey extends Happiny {
     public Chansey(String name, int level){
         super(name, level);
+        pokemonStat();
     }
     @Override
     protected void evoChangableStat(){
